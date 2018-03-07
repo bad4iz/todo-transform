@@ -1,0 +1,19 @@
+.calendar {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #31618b;
+  margin: auto;
+  transform-origin: 50% 50%;
+  transform-origin: 75% 73%;
+  transform: rotateY(30deg);
+  animation: notransform 5s infinite;
+  transform-origin: 50% 50%;
+  transform: rotateY(30deg);
+}
+
+@keyframes notransform {
+  50% {
+      transform: none;
+  }
+}
