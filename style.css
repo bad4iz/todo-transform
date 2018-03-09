@@ -19,6 +19,7 @@ HTML, BODY {
   display:  flex;
   flex-flow: column-reverse nowrap;
   justify-content:  space-around;
+  position:  absolute;
 }
 .row{
   /* border: 1px solid; */
@@ -41,16 +42,17 @@ HTML, BODY {
   /* transform: rotateX(-51deg); */
   /* transform: rotateZ(0deg) rotateX(108deg); */
   transform-style: preserve-3d;
-  perspective-origin: bottom;
+  perspective-origin: top;
   position: relative;
-  perspective: 53px;
+  perspective: 17px;
 }
 .el{
   /* border: saddlebrown; */
   position:  absolute;
-  transform: rotateX(56deg);
+  transform: rotateX(-19deg);
   background-color: #54d128;
-  height: 31px;
+  height: 37px;
+  /* transform: translate3d(91px, 19px, -4px); */
   width: 55px;
   margin: 2px;
   bottom:  0;
@@ -59,3 +61,4 @@ HTML, BODY {
   /* transform-style:  preserve-3d; */
   /* right:  0; */
   /* perspective-origin: top; */
+  box-shadow: inset 2px 1px black;
