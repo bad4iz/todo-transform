@@ -42,16 +42,16 @@ HTML, BODY {
   /* transform: rotateX(-51deg); */
   /* transform: rotateZ(0deg) rotateX(108deg); */
   transform-style: preserve-3d;
-  perspective-origin: top;
+  perspective-origin: center  center;
   position: relative;
-  perspective: 17px;
+  perspective: 206px;
 }
 .el{
   /* border: saddlebrown; */
   position:  absolute;
-  transform: rotateX(-19deg);
+  transform: rotateX(136deg);
   background-color: #54d128;
-  height: 37px;
+  height: 20px;
   /* transform: translate3d(91px, 19px, -4px); */
   width: 55px;
   margin: 2px;
