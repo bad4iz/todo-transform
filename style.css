@@ -12,53 +12,95 @@ HTML, BODY {
 .calendar{
   border: 1px solid red;
   width: 423px;
-  height: 218px;
+  height: 150px;
   transform: rotateX(70deg);
   /* transform-style: preserve-3d; */
-  margin:  auto;
   display:  flex;
+  margin: 14px 235px;
   flex-flow: column-reverse nowrap;
   justify-content:  space-around;
   position:  absolute;
+  perspective: 88px;
+  perspective-origin: top;
+  transform-style: preserve-3d;
+  border: 1px solid royalblue;
+  flex: 1;
 }
 .row{
   /* border: 1px solid; */
   /* width: 20px; */
   /* margin-bottom: 10px; */
+
   flex:  1;
   background-color: #1c22ae36;
   display:  flex;
   flex-flow:  row nowrap;
   justify-content:  space-between;
+
   /* perspective: 88px; */
   /* perspective-origin: top; */
   /* transform-style: preserve-3d; */
 }
 .col{
-  border: 1px solid royalblue;
-  flex: 1;
+  /*perspective: 88px;*/
+  /*perspective-origin: top;*/
+  /*transform-style: preserve-3d;*/
+  /*border: 1px solid royalblue;*/
+  /*flex: 1;*/
   /* margin: 2px; */
   /* height: 61px; */
   /* transform: rotateX(-51deg); */
   /* transform: rotateZ(0deg) rotateX(108deg); */
-  transform-style: preserve-3d;
-  perspective-origin: center  center;
   position: relative;
-  perspective: 206px;
 }
-.el{
-  /* border: saddlebrown; */
-  position:  absolute;
-  transform: rotateX(136deg);
+.el {
+  /*border: saddlebrown;*/
+  position: absolute;
+  transform: rotateX(-16deg);
   background-color: #54d128;
-  height: 20px;
+  height: 52px;
   /* transform: translate3d(91px, 19px, -4px); */
   width: 55px;
   margin: 2px;
-  bottom:  0;
-  /* left:  0; */
+  bottom: 0;
+   left: -31px;
   /* top: 0; */
-  /* transform-style:  preserve-3d; */
-  /* right:  0; */
+  /* transform-style: preserve-3d; */
+  /* right: 0; */
   /* perspective-origin: top; */
-  box-shadow: inset 2px 1px black;
+  box-shadow: inset 1px 1px black;
+}
+
+.row:nth-child(1) .el{
+  z-index: 11;
+}
+.row:nth-child(2) .el{
+  z-index: 10;
+}
+.row:nth-child(3) .el{
+  z-index: 9;
+}
+.row:nth-child(4) .el{
+  z-index: 8;
+}
+.row:nth-child(5) .el{
+  z-index: 7;
+}
+.row:nth-child(6) .el{
+  z-index: 6;
+}
+.row:nth-child(7) .el{
+  z-index: 5;
+}
+.row:nth-child(8) .el{
+  z-index: 4;
+}
+.row:nth-child(9) .el{
+  z-index: 3;
+}
+.row:nth-child(10) .el{
+  z-index: 2;
+}
+.row:nth-child(11) .el{
+  z-index: 1;
+}
