@@ -16,10 +16,9 @@ HTML, BODY {
   transform: rotateX(70deg);
   /* transform-style: preserve-3d; */
   display:  flex;
-  margin: 14px 235px;
+  margin: 14px auto;
   flex-flow: column-reverse nowrap;
   justify-content:  space-around;
-  position:  absolute;
   perspective: 88px;
   perspective-origin: top;
   transform-style: preserve-3d;
